@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>FUD4GUD</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <script>
+        function menuToggle() {
+            var nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">FUD4<span>GUD</span></a>
+            <ul>
+                <li>
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="myprofile.html">My profile</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <span class="menuIcon" onClick="menuToggle();"></span>
+        <div class="content">
+            <div class="bannerText">
+                <div class="active">
+                    <h2>EAT Healthy<br>Stay Healthy</h2>
+                    <p>With the increasing concern over food allergies, intolerances, and sensitivities, our solution
+                        can be especially beneficial for individuals who have specific dietary requirements or health
+                        conditions. The website can provide them with the necessary information to avoid food items that
+                        may trigger adverse reactions.</p>
+                    <a href="contact.html">Read More</a>
+                </div>
+
+            </div>
+            <div class="bannerImg">
+                <img src="https://images.herzindagi.info/image/2021/Jul/expensive-ffod-in-inida-main.jpg"
+                    class="active">
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="footer">
+        <p>FUD4GUD</p>
+        <p>&copy;HACKSRM 2023</p>
+    </footer> -->
+</body>
+
+</html>

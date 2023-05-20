@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY PROFILE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script>
+        function menuToggle() {
+            var nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
+    <style>
+        header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="navbar">
+        <a href="index.html" class="logo">FUD4<span>GUD</span></a>
+        <ul>
+            <li>
+                <a href="index.html" style="color: black;">Home</a>
+            </li>
+            <li>
+                <a href="menu.html" style="color: black;">Menu</a>
+            </li>
+            <li>
+                <a href="myprofile.html" style="color: black;">My profile</a>
+            </li>
+            <li>
+                <a href="contact.html" style="color: black;">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <span class="menuIcon" onClick="menuToggle();"></span>
+
+    <main>
+        <TABLE>
+            <tr>
+                <td>
+                    <div class="col-md-3 border-right">
+                        <div class="d-flex flex-column align-items-left text-center p-3 py-5"><img
+                                class="rounded-circle mt-5" width="150px" src="1.png">
+
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <span class="font-weight-bold">LOGGED
+                        IN AS:
+                        <div>
+                    </span><span class="text-black-50">manojpennada@gmail.com</span><span> </span></div>
+                    </span>
+                </td>
+            </tr>
+        </TABLE>
+        <div class="profile-container">
+            <div class="container rounded bg-white mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-5 border-right">
+                        <div class="p-3 py-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Profile Settings</h4>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6"><label class="labels">Name<br></label><input type="text"
+                                        class="form-control" placeholder="Name" value="Manoj Pennada" readonly></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12"><label class="labels">Mobile Number<br></label><input type="text"
+                                        class="form-control" placeholder="Mobile Number" value="+91-6305234192"
+                                        readonly>
+                                </div>
+                            </div>
+                            <div class="myne">
+                                <form id="allergy-form">
+                                    <label for="allergy-input">Add Allergy: <br></label>
+                                    <input type="text" id="allergy-input" placeholder="Enter an allergy">
+                                    <button type="submit">Add</button>
+                                </form>
+                            </div>
+                            <br>
+                            <h2>Allergies:</h3>
+                                <ul id="allergy-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="profilescript.js"></script>
+    <!-- <footer class="footer">
+        <p>FUD4GUD</p>
+        <p>&copy;HACKSRM 2023</p>
+    </footer> -->
+</body>
+
+</html>

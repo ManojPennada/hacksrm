@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  main {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .profile-container {
+    display: flex;
+  }
+  
+  .profile-left {
+    padding: 3rem;
+  }
+  
+  .profile-right {
+    padding: 3rem;
+  }
+  
+  .labels {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-button {
+    margin-top: 2rem;
+  }
+  
+  .myne {
+    font-weight: bold;
+  }
